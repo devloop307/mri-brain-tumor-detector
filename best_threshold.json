@@ -1,0 +1,40 @@
+{
+  "auc_roc": 1.0,
+  "avg_precision": 1.0,
+  "thresholds": {
+    "youden_J": {
+      "threshold": 0.8597112894058228,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 634,
+      "fp": 0,
+      "fn": 0,
+      "tn": 626
+    },
+    "max_F1": {
+      "threshold": 0.8597112894058228,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 634,
+      "fp": 0,
+      "fn": 0,
+      "tn": 626
+    },
+    "recall_priority": {
+      "threshold": 0.8597112894058228,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 634,
+      "fp": 0,
+      "fn": 0,
+      "tn": 626,
+      "target_recall": 0.95
+    }
+  }
+}
