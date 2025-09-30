@@ -3,18 +3,23 @@
 Clasificador **binario (sí/no)** para detección de tumores cerebrales en imágenes **MRI** con explicación visual usando **Grad-CAM**.  
 Aplicación web construida con **Streamlit** y modelo **PyTorch (ResNet18)** preentrenado.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15giXohyUo7ck9FjbVnmwcqPvXOPSuK2l?usp=sharing)
+
 ---
 
 ## 📦 Estructura del Repositorio
 
 ```
 .
-├── .streamlit/           # Carpeta de configuración de Streamlit
-├── LICENSE              # Licencia Apache 2.0
+├── .streamlit/         # Carpeta de configuración de Streamlit
+│   └── config.toml     # Configuración de tema y servidor
+├── assets/             # Recursos multimedia (capturas, ejemplos)
+├── LICENSE             # Licencia Apache 2.0
 ├── Procfile            # Definición de proceso para despliegue (Render)
 ├── README.md           # Este archivo
 ├── best_threshold.json # Umbrales sugeridos (youden_J, max_F1, recall_priority)
 ├── requirements.txt    # Dependencias para despliegue/entorno
+├── resnet18_best.pt    # Checkpoint del modelo entrenado
 ├── runtime.txt         # Versión de Python para despliegue (3.10 recomendado)
 └── streamlit_app.py    # Aplicación principal Streamlit (subir imagen → predicción → Grad-CAM)
 ```
